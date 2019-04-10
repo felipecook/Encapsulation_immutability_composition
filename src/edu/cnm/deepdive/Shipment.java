@@ -7,9 +7,9 @@ public class Shipment {
 
   private Date initiation;
 
-  private List<ShippingInfo> tracking;
+  private List<TrackingInfo> tracking;
 
-  public Shipment(Date initiation, List<ShippingInfo> tracking) {
+  public Shipment(Date initiation, List<TrackingInfo> tracking) {
     this.initiation = initiation;
     this.tracking = tracking;
   }
